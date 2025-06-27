@@ -1,3 +1,7 @@
+# Career Coach CLI
+# Repository: https://github.com/keyur-2992/Career-coach
+# For documentation, updates, and issues, visit the repo above.
+
 import os
 from dotenv import load_dotenv
 from core.career_qa import (

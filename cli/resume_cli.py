@@ -1,3 +1,7 @@
+# Career Coach CLI - Resume Parser
+# Repository: https://github.com/keyur-2992/Career-coach
+# For documentation, updates, and issues, visit the repo above.
+
 import os
 import json
 from datetime import datetime
