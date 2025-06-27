@@ -36,6 +36,7 @@ app.add_middleware(
     allow_origins=[
         "http://localhost:3000",
         "https://career-coach-alpha.vercel.app",
+        "https://career-coach-theta.vercel.app",
     ],
     allow_credentials=True,
     allow_methods=["*"],
