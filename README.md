@@ -9,6 +9,29 @@
 
 ---
 
+## 📂 Project Structure & Documentation
+
+This repository is organized into three main components:
+
+- **Backend** ([backend/README.md](backend/README.md))
+  - FastAPI server for resume parsing, profile analysis, and job matching
+  - Handles all API endpoints and business logic
+  - See the backend README for detailed API docs and workflow
+
+- **Frontend** ([frontend/README.md](frontend/README.md))
+  - React app for user interaction, resume upload, and report display
+  - Connects to the backend via REST API
+  - See the frontend README for UI/UX and integration details
+
+- **CLI** ([cli/README.md](cli/README.md))
+  - Command-line interface for resume analysis and coaching
+  - Useful for advanced users and automation
+  - See the CLI README for usage and workflow
+
+For a deep dive into any part of the project, please refer to the respective README in each folder.
+
+---
+
 ## 🚀 High-Level Architecture
 
 ```mermaid
