@@ -5,7 +5,7 @@
 ---
 
 ## 🌐 [Live App: career-coach-theta.vercel.app](https://career-coach-theta.vercel.app/)
-## link tested on 27th jun 2025 (wroking 100%)
+> _Live link tested and working as of June 27, 2025._
 
 ---
 
@@ -13,12 +13,12 @@
 
 ```mermaid
 flowchart TD
-    A[Frontend (React, Vercel)] -- fetch() --> B[Backend (FastAPI, Render)]
-    B -- /upload_resume, /questions, /analyze, /find_jobs --> C[Core Logic (Python)]
-    B -- /questions --> D[Shared Questions (JSON)]
-    C -- OpenAI API --> E[OpenAI LLM]
-    C -- PDF Parsing --> F[pdfplumber]
-    B -- Response --> A
+    A["Frontend (React, Vercel)"] -->|"fetch()"| B["Backend (FastAPI, Render)"]
+    B -->|"/upload_resume, /questions, /analyze, /find_jobs"| C["Core Logic (Python)"]
+    B -->|"/questions"| D["Shared Questions (JSON)"]
+    C -->|"OpenAI API"| E["OpenAI LLM"]
+    C -->|"PDF Parsing"| F["pdfplumber"]
+    B -->|"Response"| A
 ```
 
 - **Frontend**: React app hosted on Vercel, provides the user interface.
